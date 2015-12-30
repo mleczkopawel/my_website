@@ -1,0 +1,406 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"alt	Attr"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"mys",
+				"mysql"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"err",
+				"error_reporting"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "dok_altium.php",
+			"settings":
+			{
+				"buffer_size": 797,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: co",
+				"Package Control: Upgrade/Overwrite All Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 49.0,
+		"history":
+		[
+			"brew install homebrew/php/phplint",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/E/xampp/htdocs/WEB/portfolio",
+		"/E/xampp/htdocs/WEB/portfolio/css",
+		"/E/xampp/htdocs/WEB/portfolio/layout",
+		"/E/xampp/htdocs/WEB/portfolio/layout/mysql",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/layout",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/qt"
+	],
+	"file_history":
+	[
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item6.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item1.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item2.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item3.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item4.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item5.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/item1.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/item2.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/item3.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/item4.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/item6.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/download.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/qt/qt.php",
+		"/E/xampp/htdocs/WEB/portfolio/index.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/menu.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/menu.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/item5.php",
+		"/E/xampp/htdocs/WEB/portfolio/css/carousel.css",
+		"/E/xampp/htdocs/WEB/portfolio/about.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/main.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/cpp/cpp.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/slide/main.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/slide/item6",
+		"/E/xampp/htdocs/WEB/portfolio/register.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/formularz.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/wykresy/xszescian.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/wykresy/sinus.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/wykresy/cosinus.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/skrypty/godz2.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/skrypty/godz.php",
+		"/E/xampp/htdocs/WEB/portfolio/contact.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/android/android.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/banner.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/fizyka.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/java.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/rozmieszczenie.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/zdarzenia.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/mysql/mysql.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/mysql/user.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/mysql/register.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/mysql/logowanie.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/row.php",
+		"/E/xampp/htdocs/WEB/portfolio/css/pawelcss.css",
+		"/E/xampp/htdocs/WEB/portfolio/stronka.sublime-project",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/right.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/login.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/dbase.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/php.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/t1l.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/php/t1l.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/footer.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/footer.php",
+		"/E/xampp/htdocs/WEB/portfolio/user.php",
+		"/E/xampp/htdocs/WEB/portfolio/sesje.inc",
+		"/E/xampp/htdocs/WEB/portfolio/layout/polecane.php",
+		"/E/xampp/htdocs/WEB/portfolio/js/bootstrap.js",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/mysql.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/logout2.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/logout.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/head.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/logowanie2.php",
+		"/E/xampp/htdocs/WEB/portfolio/error.php",
+		"/E/xampp/htdocs/WEB/portfolio/layout/error.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/mysql/right2.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/pma/index.php",
+		"/E/xampp/htdocs/WEB/portfolio/css/bootstrap-theme.min.css",
+		"/E/xampp/htdocs/WEB/portfolio/css/bootstrap-theme.css",
+		"/E/xampp/htdocs/WEB/portfolio/css/bootstrap-theme.css.map",
+		"/E/xampp/htdocs/WEB/portfolio/layout/logowanie.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/layout/polecane.php",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/classes/Ph14Polish.jar",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/classes/Ohm.jar",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/classes/MFLeiter.jar",
+		"/E/xampp/htdocs/WEB/portfolio/podstrona/java/classes/KombiWid.jar",
+		"/C/Users/ZME-CBR/Documents/DomumentQt/csave.cpp",
+		"/C/Users/ZME-CBR/Documents/DomumentQt/cread.h",
+		"/C/Users/ZME-CBR/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/E/ColorSchemeEditor-master/README.md",
+		"/C/Users/ZME-CBR/Desktop/roadmap-1.0.12/README",
+		"/C/Users/ZME-CBR/AppData/Roaming/Sublime Text 3/Installed Packages/Color Schemes by carlcalderon.sublime-package",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.vcproj",
+		"/C/Users/ZME-CBR/Documents/LocalRCP/rcpmessage.cpp",
+		"/C/Users/ZME-CBR/Documents/DomumentQt/sheet.SchDoc",
+		"/C/Users/ZME-CBR/Documents/DomumentQt/ui_mainwindow.h",
+		"/C/Users/ZME-CBR/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/C/Users/ZME-CBR/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/Public/Videos/Sample Videos/Wildlife.wmv",
+		"/E/Qt/Tools/QtCreator/share/qtcreator/styles/monokai.xml",
+		"/E/Qt/Tools/QtCreator/share/qtcreator/styles/inkpot.xml",
+		"/E/Qt/Tools/QtCreator/share/qtcreator/styles/twilight.xml",
+		"/E/Program Files/Sublime Text 3/Packages/Color Scheme - Default.sublime-package",
+		"/C/Users/ZME-CBR/Desktop/q.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/qq.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Kopia Baza komponentów3.prn",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/ReadMe.txt",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.vcxproj",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.vcxproj.filters",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.vcxproj.user",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/DokumentacjaDlg.cpp",
+		"/C/Users/ZME-CBR/Documents/DokNew/dok.cpp",
+		"/C/Users/ZME-CBR/Desktop/doc.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/3.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.cpp",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.vcproj.OBRSM.siudut.user",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.sln",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.rc",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.h",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/DokumentacjaDlg.h",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/stdafx.cpp",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/stdafx.h",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/UpgradeLog.XML",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/resource.h",
+		"/C/Users/ZME-CBR/Documents/DomumentQt/release/DomumentQt.exe",
+		"/C/Users/ZME-CBR/Desktop/qqqqqq.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/szablon2.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/wwww.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Specyfik/SpecyfikDOS/Old/SPECIF02.PAS",
+		"/C/Users/ZME-CBR/Desktop/AD/Specyfik/SpecyfikDOS/Old/SPECIF01.PAS",
+		"/C/Users/ZME-CBR/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/ZME-CBR/Desktop/Swheet1.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/Sheet1.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/a3_2015-01.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/a3spec2015-01.SchDoc",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/szablon.sab",
+		"/C/Users/ZME-CBR/Desktop/AD/Nowy folder/Dokumentacja/Dokumentacja.aps"
+	],
+	"find":
+	{
+		"height": 21.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"primary",
+			"fixed",
+			"bottom",
+			"connect",
+			"\">\n",
+			"-webkit-pa",
+			"ul",
+			"blank",
+			".blank",
+			".bonus",
+			"navbar",
+			"nazwa",
+			"daniel",
+			"Paweł"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "E:\\xampp\\htdocs\\WEB\\portfolio"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "dok_altium.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 797,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								700,
+								700
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/enlightened.tmTheme",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 21.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "",
+	"replace":
+	{
+		"height": 38.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 172.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

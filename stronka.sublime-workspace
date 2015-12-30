@@ -1,0 +1,599 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"TA",
+				"TABLE_ROWS"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"dr",
+				"drzwi"
+			],
+			[
+				"nad",
+				"nadwozie"
+			],
+			[
+				"poj",
+				"pojemnosc"
+			],
+			[
+				"ta",
+				"tabela"
+			],
+			[
+				"INC",
+				"include"
+			],
+			[
+				"inc",
+				"include"
+			],
+			[
+				"qu",
+				"query"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"base",
+				"basse"
+			],
+			[
+				"ac",
+				"action	Attr"
+			],
+			[
+				"zna",
+				"znak"
+			],
+			[
+				"s",
+				"show3"
+			],
+			[
+				"connect",
+				"connect3"
+			],
+			[
+				"wynik",
+				"wynik2"
+			],
+			[
+				"o",
+				"option	Tag"
+			],
+			[
+				"opto",
+				"optgroup	Tag"
+			],
+			[
+				"opt",
+				"option	Tag"
+			],
+			[
+				"on",
+				"onpage"
+			],
+			[
+				"conn",
+				"connect"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"border",
+				"border-color"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"wi",
+				"wilew"
+			],
+			[
+				"pa",
+				"page"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"num",
+				"num_pages"
+			],
+			[
+				"nu",
+				"num_pages"
+			],
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"na",
+				"navnum"
+			],
+			[
+				"wie",
+				"wiersz"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"mysql_n",
+				"mysql_num_rows"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"z",
+				"zapytanie"
+			],
+			[
+				"q",
+				"query"
+			],
+			[
+				"co",
+				"connect"
+			],
+			[
+				"err",
+				"error_reporting"
+			],
+			[
+				"error",
+				"error_reporting"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "podstrona/java/wykresy.php",
+			"settings":
+			{
+				"buffer_size": 461,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "podstrona/layout/menu.php",
+			"settings":
+			{
+				"buffer_size": 7187,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "layout/menu.php",
+			"settings":
+			{
+				"buffer_size": 7088,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/DOM/Desktop/Nowy folder/menu.php",
+			"settings":
+			{
+				"buffer_size": 7098,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/xampp/htdocs/portfolio",
+		"/C/xampp/htdocs/portfolio/layout",
+		"/C/xampp/htdocs/portfolio/podstrona",
+		"/C/xampp/htdocs/portfolio/podstrona/layout",
+		"/C/xampp/htdocs/pma/css",
+		"/C/xampp/htdocs/pma/fonts",
+		"/C/xampp/htdocs/pma/mysql"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/pma/mysql.php",
+		"/C/xampp/htdocs/smol/phpmyadmin.php",
+		"/C/xampp/htdocs/podstrony/config.php",
+		"/C/xampp/htdocs/podstrony/login.php",
+		"/C/xampp/htdocs/smol/baza.php",
+		"/C/xampp/htdocs/pma/mysql/right.php",
+		"/C/xampp/htdocs/pma/css/style.css",
+		"/C/xampp/htdocs/pma/mysql/rekord.php",
+		"/C/xampp/htdocs/pma/mysql/tab.php",
+		"/C/Users/DOM/Downloads/zawartosc.php",
+		"/C/Users/DOM/Downloads/phpmyadmin.php",
+		"/C/Users/DOM/Downloads/baza.php",
+		"/C/xampp/htdocs/pma/mysql/mysql.php",
+		"/C/xampp/htdocs/PhpProject2/mysql.php",
+		"/C/xampp/htdocs/pma/mysql/dbase.php",
+		"/C/xampp/htdocs/pma/mysql/table.php",
+		"/C/xampp/htdocs/portfolio/layout/mysql/register.php",
+		"/C/xampp/htdocs/portfolio/podstrona/sesje.inc",
+		"/C/xampp/htdocs/pma/mysql/del.php",
+		"/C/xampp/htdocs/portfolio/stronka.sublime-project",
+		"/C/Users/DOM/Downloads/adminer-4.2.1-mysql-pl.php",
+		"/C/xampp/htdocs/pma/index.php",
+		"/C/xampp/htdocs/portfolio/index.php",
+		"/C/xampp/htdocs/portfolio/layout/row.php",
+		"/C/xampp/htdocs/portfolio/layout/polecane.php",
+		"/C/xampp/htdocs/portfolio/layout/menu.php",
+		"/C/xampp/htdocs/portfolio/layout/logowanie.php",
+		"/C/xampp/htdocs/portfolio/layout/head.php",
+		"/C/xampp/htdocs/portfolio/layout/footer.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/index.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/logout.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/logout2.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/layout/menu.php",
+		"/C/xampp/htdocs/portfolio/podstrona/layout/menu.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/right.php",
+		"/C/xampp/htdocs/portfolio/css/pawelcss.css",
+		"/C/Users/DOM/Desktop/menu.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/mysql.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/error.php",
+		"/C/Users/DOM/Desktop/pma/pp.php",
+		"/C/xampp/htdocs/portfolio/podstrona/layout/menu_mysql.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/css/style.css",
+		"/C/xampp/mysql/bin/nowy2.sql",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/table.php",
+		"/C/Users/DOM/Downloads/a.html",
+		"/C/xampp/htdocs/portfolio/user.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/dbase.php",
+		"/C/Users/DOM/Desktop/Nowy folder/head.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/right2.php",
+		"/C/xampp/htdocs/portfolio/podstrona/layout/head.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/pp.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/login.php",
+		"/C/xampp/htdocs/portfolio/podstrona/layout/footer.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/login.php",
+		"/F/SZKOŁA/IV TIN/PSI/PhpProject2/mysql.php",
+		"/C/Users/DOM/Desktop/Nowy folder/menu_mysql.php",
+		"/C/Users/DOM/Desktop/Nowy folder/menu.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/mysql/nagl.php",
+		"/C/Users/DOM/Desktop/right.php",
+		"/C/Users/DOM/Desktop/Nowy folder/user.php",
+		"/C/Users/DOM/Desktop/Nowy folder/logowanie.php",
+		"/C/Users/DOM/Desktop/Nowy folder/register.php",
+		"/C/xampp/htdocs/portfolio/layout/mysql/logout.php",
+		"/C/xampp/htdocs/portfolio/layout/mysql/user.php",
+		"/C/xampp/htdocs/portfolio/podstrona/pma/error.php",
+		"/C/xampp/htdocs/portfolio/layout/mysql/logowanie.php",
+		"/C/xampp/htdocs/portfolio/layout/mysql/wait.php",
+		"/C/Users/DOM/Desktop/Nowy folder/mysql.php",
+		"/F/ver.php",
+		"/C/Users/DOM/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"800",
+			"bazy",
+			"a:ac",
+			"a ",
+			"a",
+			".t",
+			"th",
+			"$onp",
+			"100",
+			">';",
+			"i",
+			"$query",
+			"query",
+			"all_posts",
+			"100",
+			".art-vmenublock",
+			".t",
+			"50",
+			"* ",
+			"row",
+			"get"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "podstrona/java/wykresy.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								219,
+								219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "podstrona/layout/menu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7187,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1147,
+								1092
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "layout/menu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1188,
+								1128
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/DOM/Desktop/Nowy folder/menu.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7098,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1190,
+								1190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "stronka.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 324.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
