@@ -1,4 +1,5 @@
 <?php
+  error_reporting(0);
   //funkcja wyświetla przycisk "usuń"
   function del_user()
   {
@@ -76,53 +77,69 @@
     if ($_POST['change_n'])
     {
       $name = trim($_POST['name']);
-      $wynik->execute();
-      $i=$wynik->fetch();
-      $change=$pdo->prepare("UPDATE user SET name=:name WHERE id_user=$i[0]");
-      $change->bindValue(':name',$name, PDO::PARAM_STR);
-      $change->execute();
-      echo '<meta http-equiv="refresh" content="0; URL=#">';
+      if ($name!="")
+      {
+        $wynik->execute();
+        $i=$wynik->fetch();
+        $change=$pdo->prepare("UPDATE user SET name=:name WHERE id_user=$i[0]");
+        $change->bindValue(':name',$name, PDO::PARAM_STR);
+        $change->execute();
+        echo '<meta http-equiv="refresh" content="0; URL=#">';
+      }
     }
     if ($_POST['change_s'])
     {
       $surname = trim($_POST['surname']);
-      $wynik->execute();
-      $i=$wynik->fetch();
-      $change=$pdo->prepare("UPDATE user SET surname=:surname WHERE id_user=$i[0]");
-      $change->bindValue(':surname',$surname, PDO::PARAM_STR);
-      $change->execute();
-      echo '<meta http-equiv="refresh" content="0; URL=#">';
+      if ($surname!="")
+      {
+        $wynik->execute();
+        $i=$wynik->fetch();
+        $change=$pdo->prepare("UPDATE user SET surname=:surname WHERE id_user=$i[0]");
+        $change->bindValue(':surname',$surname, PDO::PARAM_STR);
+        $change->execute();
+        echo '<meta http-equiv="refresh" content="0; URL=#">';
+      }
     }
     if ($_POST['change_l'])
     {
       $login = trim($_POST['login']);
-      $wynik->execute();
-      $i=$wynik->fetch();
-      $change=$pdo->prepare("UPDATE user SET login=:login WHERE id_user=$i[0]");
-      $change->bindValue(':login',$login, PDO::PARAM_STR);
-      $change->execute();
-      echo '<meta http-equiv="refresh" content="0; URL=#">';
+      if ($login!="")
+      {
+        $wynik->execute();
+        $i=$wynik->fetch();
+        $change=$pdo->prepare("UPDATE user SET login=:login WHERE id_user=$i[0]");
+        $change->bindValue(':login',$login, PDO::PARAM_STR);
+        $change->execute();
+        echo '<meta http-equiv="refresh" content="0; URL=#">';
+      }
     }
     if ($_POST['change_e'])
     {
       $email = trim($_POST['email']);
-      $wynik->execute();
-      $i=$wynik->fetch();
-      $change=$pdo->prepare("UPDATE user SET email=:email WHERE id_user=$i[0]");
-      $change->bindValue(':email',$email, PDO::PARAM_STR);
-      $change->execute();
-      echo '<meta http-equiv="refresh" content="0; URL=#">';
+      if ($email!='')
+      {
+        $wynik->execute();
+        $i=$wynik->fetch();
+        $change=$pdo->prepare("UPDATE user SET email=:email WHERE id_user=$i[0]");
+        $change->bindValue(':email',$email, PDO::PARAM_STR);
+        $change->execute();
+        echo '<meta http-equiv="refresh" content="0; URL=#">';
+      }
     }
         if ($_POST['change_p'])
     {
       $password = trim($_POST['password']);
-      $wynik->execute();
-      $i=$wynik->fetch();
-      $change=$pdo->prepare("UPDATE user SET password=:password WHERE id_user=$i[0]");
-      $change->bindValue(':password',$password, PDO::PARAM_STR);
-      $change->execute();
-      echo 'HASŁO ZOSTAŁO ZMIENIONE';
-      echo '<meta http-equiv="refresh" content="0; URL=#">';
+      $password = sha1(md5($password));
+      if ($password!="")
+      {
+        $wynik->execute();
+        $i=$wynik->fetch();
+        $change=$pdo->prepare("UPDATE user SET password=:password WHERE id_user=$i[0]");
+        $change->bindValue(':password',$password, PDO::PARAM_STR);
+        $change->execute();
+        echo 'HASŁO ZOSTAŁO ZMIENIONE';
+        echo '<meta http-equiv="refresh" content="0; URL=#">';
+      }
     }
   }
 ?>

@@ -62,6 +62,7 @@
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Example <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
                       <li><a href="../../podstrona/example/ex_1.php">Ex. 1</a></li>
+                      <li><a href="../../podstrona/example/ex_2.php">Ex. 2</a></li>
                     </ul>
                 </li>                  
                 <?php
@@ -75,8 +76,8 @@
                   if($_SESSION['auth'] == TRUE && !isset($_GET['logout']))
                   {   
                     //$pdo=new PDO('mysql:host=mysql.cba.pl;dbname=mleczkopawel_cba_pl;','adminpadmin','tracer12');
-                    $pdo=new PDO('mysql:host=mysql.hostinger.pl;dbname=u133897514_baaza;','u133897514_padmi','tracer12');
-                    //$pdo=new PDO('mysql:host=localhost;dbname=dane','root','zaq');
+                    //$pdo=new PDO('mysql:host=mysql.hostinger.pl;dbname=u133897514_baaza;','u133897514_padmi','tracer12');
+                    $pdo=new PDO('mysql:host=localhost;dbname=dane','root','zaq');
                   $wynik = $pdo -> query("SELECT name FROM user WHERE login='$_SESSION[user]'");
                   echo "<a href='../../user.php'><span class='glyphicon glyphicon-user'></span> ";
                   if($_SESSION['auth']==TRUE)

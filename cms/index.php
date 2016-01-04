@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <?php
+    session_start();
     error_reporting(0);
     ?>
     <meta charset="utf-8">
@@ -31,32 +32,28 @@
   <body>  
    <?php
         include 'layout/menu.php';  
-                if($_SESSION['auth2'] == TRUE && !isset($_GET['logout']))
-                {    
-                    echo "<b><h1>Cześć, ".$_SESSION['user']."!</h1></b><br>";
-                    include 'sesje.inc';
-                }
-                else
-                {
-                    if (!isset($_POST['login']) && !isset($_POST['password']) && $_SESSION['auth2'] == FALSE)
-                    {                    
-            ?>
-      <br><br><br><br><br>
-            <div class='c'>
-            <form class="formek" action="mysql/login.php" method="GET" name="login">
-              <fieldset class="field">            
-                <legend>Zaloguj się</legend>
-            <form action="mysql/login.php" method="GET" name="logowanie">
-                <label> Login: </label><input name="login" type="text" ><br>
-                <label> Hasło: </label><input name="password" type="password" ><br>
-                <p><input class="btn btn-sm btn-primary" type="submit" value="Zaloguj" name="logowanie"></p>  
-                </fieldset>
-            </form>
-            </div>
-            <?php
-                    }                 
-                }
-            include 'layout/footer.php';
+            if($_SESSION['auth'] == TRUE && !isset($_GET['logout']) && $_SESSION['user']=='admin')
+            {    
+                echo "<br><br><br><br><b><h1>Cześć, ".$_SESSION['user']."!</h1></b><br>";
+                include 'layout/mysql/dodawanie_tekstu.php';
+            }
+            else
+            {           
+                $_SESSION['auth']=FALSE;     
+                echo'   
+                    <div class="c">
+                        <form class="formek" action="layout/mysql/logowanie.php" method="post" name="logowanie">
+                            <fieldset class="field">            
+                            <legend>Zaloguj się</legend>
+                            <form action="mysql/login.php" method="GET" name="logowanie">
+                                <label> Login: </label><input name="login" type="text" ><br>
+                                <label> Hasło: </label><input name="password" type="password" ><br>
+                                <p><input class="btn btn-sm btn-primary" type="submit" value="Zaloguj" name="logowanie"></p>  
+                            </fieldset>
+                        </form>
+                    </div>';               
+            }
+        include 'layout/footer.php';
       ?>
   </body>
 </html>

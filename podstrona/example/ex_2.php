@@ -16,14 +16,14 @@
       }
       else
       {
-        date("l");
-    ?>
-    <form action="../../layout/mysql/text.php" method="post" name="intext">
-      <label for="area">Wpisz tekst</label><textarea name="area" cols="5" rows="3">Tutaj coś pisz</textarea>
-      <p><input class="btn btn-sm btn-primary" type="submit" value="Zapisz" name="intext"></p>  
-    </form>
-    <?php
-      }
+        $pdo->query("SET NAMES 'utf8'");//TO MUSI BYĆ W WIELU MIEJSCACH BO INACZEJ UCIEKNĄ ZNAKI POLSKIE...
+        $wynik = $pdo -> query("SELECT * FROM text WHERE id_text=3");
+        while($wiersz=$wynik->fetchObject())
+        {
+         // echo $wiersz->id_text."<br>";
+          echo $wiersz->text."<br>";            
+        }
+      }  
       include '../layout/polecane.php';
       include '../layout/footer.php';
     ?>

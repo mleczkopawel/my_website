@@ -1,4 +1,5 @@
-<?php	
+<?php
+	error_reporting(0);
 	try
 	{
 		//$pdo=new PDO('mysql:host=mysql.cba.pl;dbname=mleczkopawel_cba_pl;','adminpadmin','tracer12',array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));

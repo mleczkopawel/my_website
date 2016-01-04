@@ -1,5 +1,6 @@
 <?php
   session_start();
+  error_reporting(0);
   include 'db.php';
   //funkcja sprawdzająca poprawność rejestracji
   function check($n,$s,$l,$p,$vp,$e,$ve) 
@@ -31,7 +32,6 @@
       $komunikaty.="Hasło musi zawierać min. 6 znaków<br>";
     if($check5==true)
       $komunikaty.="aaaaaaa";
-
     return $k;
   }
   if ($_POST['register'])

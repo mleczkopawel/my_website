@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <?php
+    error_reporting(0);
     include '../../podstrona/layout/head.php';
     ?>
   </head>
