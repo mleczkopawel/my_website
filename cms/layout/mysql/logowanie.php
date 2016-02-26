@@ -1,4 +1,5 @@
-<?php 
+
+<?php
   session_start();
   include '../../../layout/mysql/db.php';
   if ($_POST['logowanie'])

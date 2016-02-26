@@ -1,7 +1,7 @@
 <?php
   session_start();
   //$_SESSION['auth']=FALSE;
-  error_reporting(0);
+  error_reporting(E_ALL);
   include 'db.php';
 ?>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">

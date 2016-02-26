@@ -77,7 +77,7 @@
                 {   
                   include 'mysql/db.php';
                   // $pdo=new PDO('mysql:host=mysql.cba.pl;dbname=mleczkopawel_cba_pl;','adminpadmin','tracer12');
-                  //$pdo=new PDO('mysql:host=mysql.hostinger.pl;dbname=u133897514_baaza;','u133897514_padmi','tracer12');
+                  // $pdo=new PDO('mysql:host=mysql.hostinger.pl;dbname=u133897514_baaza;','u133897514_padmi','tracer12');
                   $pdo=new PDO('mysql:host=localhost;dbname=dane','root','zaq');
                   $wynik = $pdo -> query("SELECT * FROM user WHERE login='$_SESSION[user]'");
                   $pdo->query("SET NAMES 'utf8'");

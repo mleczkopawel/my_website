@@ -1,9 +1,9 @@
 <?php
-	error_reporting(0);
+	error_reporting(E_ALL);
 	try
 	{
 		//$pdo=new PDO('mysql:host=mysql.cba.pl;dbname=mleczkopawel_cba_pl;','adminpadmin','tracer12',array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
-//		$pdo=new PDO('mysql:host=mysql.hostinger.pl;dbname=u133897514_baaza;','u133897514_padmi','tracer12',array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
+		// $pdo=new PDO('mysql:host=mysql.hostinger.pl;dbname=u133897514_baaza;','u133897514_padmi','tracer12',array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES 'utf8'"));
 		$pdo=new PDO('mysql:host=localhost;dbname=dane','root','zaq');
 		$pdo->query("SET NAMES 'utf8'");
 		$pdo->query("SET CHARSET 'utf8'");

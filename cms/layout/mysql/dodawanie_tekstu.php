@@ -1,6 +1,6 @@
 <?php
 	session_start();
-	error_reporting(E_ALL);
+	error_reporting(0);
 	include '../layout/mysql/db.php';
 
 	echo'    

@@ -32,7 +32,7 @@
   <body>  
    <?php
         include 'layout/menu.php';  
-            if($_SESSION['auth'] == TRUE && !isset($_GET['logout']) && $_SESSION['user']=='admin')
+            if($_SESSION['auth'] == TRUE && !isset($_GET['logout']) && $_SESSION['user']=='admin2')
             {    
                 echo "<br><br><br><br><b><h1>Cześć, ".$_SESSION['user']."!</h1></b><br>";
                 include 'layout/mysql/dodawanie_tekstu.php';
